@@ -3,7 +3,7 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SetMoodTest extends BaseTest implements ITestConstants {
+public class MoodTest extends BaseTest implements ITestConstants {
 
     @Test(description = "Setting the mood")
     public void setMoodTest() {
